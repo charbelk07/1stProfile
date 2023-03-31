@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction:column;
+    line-height: 1.3px;
+    background-color: lightgray;
+}
+header {
+display:flex ;
+padding: 1%;
+justify-content: space-between;
+background-color: rgb(49, 49, 49);
+color: #fff;
+align-items: center;
+}
+nav ul {
+    display:flex;
+    justify-content: space-between;
+    margin: 25px;
+    min-width: 300px;
+    font-size: 50x;
+}
+
+nav a {
+    color: #fff;
+    cursor:s-resize;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+color: rgb(213, 150, 23)
+}
+
+.slider{
+    position:absolute;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.exascaleproject.org/programming-code-abstract-technology-background-of-software-developer-and-computer-script/);
+}
